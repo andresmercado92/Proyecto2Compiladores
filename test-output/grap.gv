@@ -1,0 +1,10 @@
+// Automata Impar
+digraph {
+	P [label=p]
+	Q [label=q]
+	R [label=r]
+	P -> P
+	P -> Q
+	Q -> Q
+	Q -> R
+}
